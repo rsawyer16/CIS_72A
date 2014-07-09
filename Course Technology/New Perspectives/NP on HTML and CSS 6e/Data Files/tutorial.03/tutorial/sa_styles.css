@@ -1,0 +1,40 @@
+/*
+
+	RCC
+*/
+
+/*Body Style*/
+
+body {
+	background-color: #FFFFFF;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+/*Heading Styles*/
+section h1 {
+    background-color: rgb(125, 186, 240);
+    color: white;
+    font-size: 1.7em;
+    letter-spacing: 0.4em;
+    text-indent: 1em;
+}
+h2 {
+	background-color: rgb(0,165,0);
+	color: white;
+    color: rgba(255,255,255,0.8);
+    letter-spacing: 0.4em;
+    text-indent: 1em;
+}
+
+section p.closing {
+    color: rgb(0,165,0);
+    text-align: right;
+}
+
+footer address{
+    background-color: rgb(55,102,55);
+    color: white;
+    color: rgba(255,255,255,0.8);
+    font: normal small-caps 0.8em/4em 'Times New Roman' , Times, serif;
+    text-align: center;
+}

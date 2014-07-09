@@ -1,0 +1,44 @@
+/*
+   New Perspectives on HTML
+   Tutorial 3
+   Case Problem 1
+
+   ICI Text and Color Styles
+   Author: David Haro
+   Date:   July 8, 2014
+
+   Filename:         c_styles.css
+   Supporting Files: none
+
+*/
+
+/*Body Styles*/
+
+body{
+    background-color: rgb(0,0,0);
+    color: white;
+    font-family: Century Gothic, sans-serif;
+}
+
+header h1{
+    color: yellow;
+    font-family: Courier New, Courier, monospace;
+    font-size: 28px;
+    letter-spacing: 20px;
+    text-align: center;
+}
+article h2{
+    font-size: 24px;
+    font-weight: normal;                            
+    letter-spacing: 5px;
+}
+article{
+    text-align: justify;
+}
+article strong.keyword{
+    color: yellow;
+    font-style: normal;
+}
+footer p{
+    text-align: center;
+}
