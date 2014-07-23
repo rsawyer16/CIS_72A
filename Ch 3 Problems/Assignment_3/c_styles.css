@@ -42,3 +42,6 @@ article strong.keyword{
 footer p{
     text-align: center;
 }
+[img]#locks{
+    border-width: 0px;
+}
