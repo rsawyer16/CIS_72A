@@ -1,0 +1,77 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 6
+   Case Problem 1
+
+   Comment Form Style Sheet
+   Author: David Haro
+   Date:   7/24/2014
+
+   Filename:         comments.css
+   Supporting Files: go.png, stop.png
+
+*/
+
+fieldset{
+    background-color: rgb(245, 245, 255);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    width: 90%;
+}
+
+label{
+    clear: left;
+    display: block;
+    float: left;
+    font: 0.9em;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+input, textarea{
+    display: block;
+    float: right;
+    font-size: 0.9em;
+    width: 55%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+textarea{
+    height: 150px;
+}
+input#submit{
+    clear: both;
+    display: block;
+    float: none;
+    width: 200px;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input:focus, textarea:focus{
+    background-color: rgb(225,225,240);
+}
+input:focus:valid{
+    background: rgb(225,240,225) url(go.png) bottom right no-repeat;
+    
+    -o-background-size: contain;
+    -moz-background-size: contain;
+    -webkit-background-size: contain;
+    background-size: contain;
+}
+
+input:focus:invalid{
+    background: rgb(240, 225, 225) url(stop.png) bottom right no-repeat;
+    
+    -o-background-size: contain;
+    -moz-background-size: contain;
+    -webkit-background-size: contain;
+    background-size: contain;
+}
